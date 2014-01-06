@@ -7,7 +7,7 @@ var today = new Date();
 var arrival = new Date(2014, 6, 4);
 var day = 1000*60*60*24;
 var diff = Math.ceil((arrival.getTime()-today.getTime())/(day));
+alert("Days until japan: " + diff);
 </script>
-<input type="button" name="alert" value="How many days until Japan?" onClick="alert('Days until japan:' + diff);"></input>
 </body>
 </html>
